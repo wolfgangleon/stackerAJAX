@@ -44,3 +44,8 @@
 	background-color: #F78181;
 	padding: 1em;
 }
+
+img {
+	position: absolute;
+	margin:-1.8em 0 0 25em;
+}
