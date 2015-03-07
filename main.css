@@ -48,4 +48,6 @@
 img {
 	position: absolute;
 	margin:-1.8em 0 0 25em;
+	height: 128px;
+	width: 128px;
 }
