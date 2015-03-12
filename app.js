@@ -86,6 +86,7 @@ var getUnanswered = function(tags) {
 		type: "GET",
 		})
 	.done(function(result){
+
 		var searchResults = showSearchResults(request.tagged, result.items.length);
 
 		$('.search-results').html(searchResults);
@@ -147,7 +148,7 @@ var getAnswerers = function(tags){
 		dataType: "jsonp",
 		type: "GET",
 		}).done(function(result){
-			console.log(result.items)
+			console.log('results:'+result.items)
 
 			var searchResults = showSearchResults(request.tagged, result.items.length);
 			console.log('request.tagged:'+request.tagged)
